@@ -1,0 +1,8 @@
+target/
+project/plugins/project/
+*.class
+
+*.iml
+*.ipr
+*.iws
+.idea/

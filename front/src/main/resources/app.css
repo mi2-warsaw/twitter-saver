@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+section.app {
+    min-height: 100vh;
+}
+
+div.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    padding: 0;
+}
+
+.login-panel {
+    margin-top: 60px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.loading {
+    margin: 50px;
+}
+
+h5.title {
+    margin-top: 0;
+}
+
+.radio-group {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.radio-group label {
+    margin-right: 8px;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}

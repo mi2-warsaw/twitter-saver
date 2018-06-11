@@ -1,0 +1,19 @@
+db:
+  host: <HOST>
+  port: <DB_PORT>
+  user: <DB_USER>
+  password: <DB_PASSWORD>
+  dbName: <DB_NAME>
+  sslMode: disable
+twitter:
+  consumerKey: <CONSUMER_KEY>
+  consumerSecret: <SECRET_KEY>
+  token: <TOKEN>
+  tokenSecret: <TOKEN_SECRET>
+json:
+  all: false
+  fields:
+    - truncated
+    - user.name
+    - user.entities
+autoDeleteDays: null

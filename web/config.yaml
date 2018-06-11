@@ -1,0 +1,15 @@
+db:
+  host: <HOST>
+  port: <DB_PORT>
+  user: <DB_USER>
+  password: <DB_PASSWORD>
+  dbName: <DB_NAME>
+  sslMode: disable
+web:
+  port: 8080
+  secret: <SECRET>
+  users:
+    - username: admin
+      password: admin
+    - username: test
+      password: test
